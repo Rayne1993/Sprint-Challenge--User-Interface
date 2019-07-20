@@ -204,6 +204,39 @@ button {
 }
 /* end my code */
 
+/* contact */
+.fn, .ln, .bday {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.gender {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin: 0 250px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.email input {
+    height: 50px;
+    margin: 0 100px 50px 100px;
+
+}
+
+input {
+    width: 75%;
+    height: 30px;
+}
+/* end contact */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
