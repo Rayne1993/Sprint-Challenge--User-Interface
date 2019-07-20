@@ -71,6 +71,47 @@ p {
     margin: 0 auto;
 }
 
+/* my code */
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 40px 20px 40px 0;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 610px;
+    margin: 40px 0 20px 30px;
+    font-size: 16px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.firstImg {
+    display: flex;
+    flex-wrap: flex;
+    margin: 30px 0 40px 0;
+}
+/* end my code */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
